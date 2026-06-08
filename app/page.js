@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import supabase from "../lib/supabase";
 
 export default function Home() {
-  const [quote, setQuote] = useState("");
+  const [quote, setQuote] =  useState("");
   const [author, setAuthor] = useState("");
   const [category, setCategory] = useState("");
   const [quotes, setQuotes] = useState([]);
